@@ -1,0 +1,51 @@
+[project]
+site_name = "OSINT Québec"
+site_url = "https://osintquebec.profinfo.ca"
+docs_dir = "wiki"
+site_dir = "site"
+use_directory_urls = true
+
+nav = [
+  {"Page principale" = "index.md"},
+  {"Municipalités" = "municipalites.md"}
+  
+]
+
+[project.theme]
+name = "material"
+language = "fr"
+features = [
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tabs.link",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.tabs",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "teal"
+accent = "teal"
+toggle.icon = "lucide/sun"
+toggle.name = "Passer en mode sombre"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "teal"
+accent = "teal"
+toggle.icon = "lucide/moon"
+toggle.name = "Passer en mode clair"
+
+[project.plugins]
+search = {}
