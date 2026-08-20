@@ -7,8 +7,9 @@ use_directory_urls = true
 
 nav = [
   {"Page principale" = "index.md"},
-  {"Municipalités" = "municipalites.md"}
-  
+  {"Municipalités" = "municipalites.md"},
+  {"Gouvernement du Québec" = "quebec.md"},
+  {"Gouvernement du Canada" = "canada.md"},
 ]
 
 [project.theme]
