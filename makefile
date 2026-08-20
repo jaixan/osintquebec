@@ -7,16 +7,23 @@ DOCS_DIR    := wiki
 SITE_DIR    := site
 SCRIPTS_DIR := overrides/scripts
 
-.PHONY: help install build serve clean pre-build rebuild deploy
+.PHONY: help install build serve clean pre-build rebuild deploy check-links
 
 help:
 	@echo "Cibles disponibles :"
 	@echo "  make install     - Crée le venv et installe les dépendances"
+	@echo "  make check-links - Vérifie les liens externes (à lancer localement, voir note ci-dessous)"
 	@echo "  make build       - Pipeline complet : pre-build -> zensical"
 	@echo "  make serve       - Lance le serveur de dev Zensical"
 	@echo "  make clean       - Supprime le dossier site/ et les caches"
 	@echo "  make rebuild     - clean + build"
 	@echo "  make deploy      - build + rsync vers le serveur"
+	@echo ""
+	@echo "Note : make check-links doit être lancé localement (IP résidentielle)."
+	@echo "Depuis GitHub Actions, l'IP du runner (datacenter) est bloquée par plusieurs"
+	@echo "fournisseurs municipaux (403/timeout), donc ce n'est PAS exécuté en CI."
+	@echo "Lancez 'make check-links' localement, puis committez wiki/status.md et"
+	@echo "wiki/liens-brises.md."
 
 # --- Installation ---
 $(VENV)/bin/activate:
@@ -29,10 +36,17 @@ $(VENV)/bin/activate:
 
 install: $(VENV)/bin/activate
 
+# --- Vérification des liens externes (LOCAL uniquement, voir `make help`) ---
+# Ne pas appeler depuis pre-build/build : l'IP des runners GitHub Actions est
+# bloquée par plusieurs fournisseurs municipaux (403/timeout), ce qui produit
+# de faux positifs massifs. À lancer manuellement en local, puis committer
+# wiki/status.md et wiki/liens-brises.md.
+check-links: install
+	$(VENV_BIN)/python scripts/check_links.py
+
 # --- Étapes pre-build (avant zensical) ---
 pre-build: install
 	@echo "==> Pre-build : génération de contenu dynamique"
-	$(VENV_BIN)/python scripts/check_links.py
 	@echo "==> Pre-build terminé"
 
 # --- Build Zensical ---
