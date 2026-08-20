@@ -1,0 +1,17 @@
+# Liens à exclure de la vérification automatique.
+#
+# Utilité : certains sites bloquent les requêtes automatisées (anti-bot, 403, etc.)
+# alors qu'ils sont bel et bien fonctionnels pour un visiteur humain. Ajoutez-les
+# ici après les avoir vérifiés manuellement pour éviter les faux positifs.
+#
+# Format :
+#   - url: "https://exemple.com/page"
+#     raison: "Pourquoi le check automatique échoue / pourquoi c'est un faux positif"
+#     verifie_le: "AAAA-MM-JJ"   # date de la dernière vérification manuelle
+#
+# Le champ url doit correspondre exactement au lien tel qu'écrit dans les pages
+# du wiki (wiki/*.md).
+
+- url: "https://www.canlii.org/fr/"
+  raison: "Bloque les requêtes automatisées (protection anti-bot DataDome, HTTP 403) ; fonctionne dans un navigateur normal."
+  verifie_le: "2026-08-20"

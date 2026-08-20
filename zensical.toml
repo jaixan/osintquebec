@@ -10,6 +10,8 @@ nav = [
   {"Municipalités" = "municipalites.md"},
   {"Gouvernement du Québec" = "quebec.md"},
   {"Gouvernement du Canada" = "canada.md"},
+  {"Statut des liens" = "status.md"},
+  {"Liens non fonctionnels" = "liens-brises.md"},
 ]
 
 [project.theme]

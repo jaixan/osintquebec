@@ -32,6 +32,7 @@ install: $(VENV)/bin/activate
 # --- Étapes pre-build (avant zensical) ---
 pre-build: install
 	@echo "==> Pre-build : génération de contenu dynamique"
+	$(VENV_BIN)/python scripts/check_links.py
 	@echo "==> Pre-build terminé"
 
 # --- Build Zensical ---
