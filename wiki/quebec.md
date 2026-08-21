@@ -8,6 +8,7 @@ Outil  | Utilité
 [Registre des entreprises et des individus autorisés à exercer ](https://lautorite.qc.ca/grand-public/registres/registre-des-entreprises-et-des-individus-autorises-a-exercer) | Autorité des marchés financiers  
 [Registre des entreprise](https://www.quebec.ca/entreprises-et-travailleurs-autonomes/obtenir-renseignements-entreprise/recherche-registre-entreprises/acceder-registre-entreprises)  |  Donne de l'information sur l'entreprise, incluant le nom du propriétaire et possiblement des adresses 
 [Registre des inspecteurs en bâtiments d'habitation](https://www.pes.rbq.gouv.qc.ca/RegistreInspecteurs/p0)|Régie du bâtiment du Québec  
+[Registre des dossiers judiciaires du Québec](https://www.quebec.ca/justice-et-etat-civil/services/consulter-dossier-judiciaire)|Consulter un dossier judiciaire  
 
 
 ## Données Québec  

@@ -4,10 +4,10 @@ Cette page est générée automatiquement lors de la construction du site.
 
 | Indicateur | Valeur |
 |--|--|
-| Liens fonctionnels | 1175 |
-| Liens totaux | 1175 |
+| Liens fonctionnels | 1184 |
+| Liens totaux | 1184 |
 | Pourcentage fonctionnel | 100.0 % |
-| Dernière vérification | 2026-08-21 10:29:00 EDT |
+| Dernière vérification | 2026-08-21 15:46:12 EDT |
 
 Voir la liste détaillée des liens non fonctionnels : [Liens brisés](liens-brises.md).
 
@@ -29,3 +29,4 @@ Ces liens sont bloqués pour les requêtes automatisées (anti-bot, etc.) mais o
 | https://www.canlii.org/fr/ | Vérifié manuellement le 2026-08-20 — Bloque les requêtes automatisées (protection anti-bot DataDome, HTTP 403) ; fonctionne dans un navigateur normal. |
 | https://www.familysearch.org/en/search/location/canada | Vérifié manuellement le 2026-08-21 — Bloque les requêtes automatisées |
 | https://www.fr.canada411.ca/search/reverse.html | Vérifié manuellement le 2026-08-21 — Bloque les requêtes automatisées |
+| https://www.zillow.com/ | Vérifié manuellement le 2026-08-21 — Bloque les requêtes automatisées |

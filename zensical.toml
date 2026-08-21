@@ -8,12 +8,37 @@ repo_url = "https://github.com/jaixan/osintquebec"
 
 nav = [
   {"Page principale" = "index.md"},
-  {"Municipalités" = "municipalites.md"},
-  {"Gouvernement du Québec" = "quebec.md"},
-  {"Gouvernement du Canada" = "canada.md"},
-  {"Ressources commerciales" = "commerciaux.md"},
-  {"Statut des liens" = "status.md"},
-  {"Liens non fonctionnels" = "liens-brises.md"},
+  {"Sites gouvernementaux" = [
+    {"Municipalités" = [
+      {"Abitibi-Témiscamingue" = "municipalites/abitibi-temiscamingue.md"},
+      {"Bas St-Laurent" = "municipalites/bas-st-laurent.md"},
+      {"Capitale Nationale" = "municipalites/capitale-nationale.md"},
+      {"Centre du Québec" = "municipalites/centre-du-quebec.md"},
+      {"Chaudière Appalaches" = "municipalites/chaudiere-appalaches.md"},
+      {"Côte Nord" = "municipalites/cote-nord.md"},
+      {"Estrie" = "municipalites/estrie.md"},
+      {"Gaspésie - Îles de la Madeleine" = "municipalites/gaspesie-iles-de-la-madeleine.md"},
+      {"Lanaudière" = "municipalites/lanaudiere.md"},
+      {"Laurentides" = "municipalites/laurentides.md"},
+      {"Laval" = "municipalites/laval.md"},
+      {"Mauricie" = "municipalites/mauricie.md"},
+      {"Montérégie" = "municipalites/monteregie.md"},
+      {"Montréal" = "municipalites/montreal.md"},
+      {"Nord-du-Québec" = "municipalites/nord-du-quebec.md"},
+      {"Outaouais" = "municipalites/outaouais.md"},
+      {"Saguenay--Lac-Saint-Jean" = "municipalites/saguenay-lac-saint-jean.md"},
+    ]},
+    {"Gouvernement du Québec" = "quebec.md"},
+    {"Gouvernement du Canada" = "canada.md"},
+  ]},
+  {"Autres ressources" = [
+    {"Ressources commerciales" = "commerciaux.md"},
+    {"Fichiers" = "fichiers.md"},
+  ]},
+  {"Hygiène du site" = [
+    {"Statut des liens" = "status.md"},
+    {"Liens non fonctionnels" = "liens-brises.md"},
+  ]},
 ]
 
 [project.theme]
@@ -31,7 +56,6 @@ features = [
   "navigation.instant",
   "navigation.instant.prefetch",
   "navigation.path",
-  "navigation.sections",
   "navigation.tabs",
   "navigation.top",
   "navigation.tracking",

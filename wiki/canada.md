@@ -12,3 +12,6 @@ Outil  | Utilité
 [Données de Statistiques Canada](https://www150.statcan.gc.ca/n1/fr/type/donnees?HPA=1)  
 [Registre des lobbyists du Canada](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/advSrch?lang=fra)  
 [Office de la propriété intellectuelle du Canada](https://ised-isde.canada.ca/site/office-propriete-intellectuelle-canada/fr)  
+[Banque de données concernant les délinquants sexuels à risque élevé](https://grc.ca/fr/banque-donnees-concernant-delinquants-sexuels-risque-eleve-infractions-sexuelles-visant-enfants)  
+[Recherche d'armes à feu](https://cpic-cipc.ca/sfa-raf-fra.htm)|Recherche d'armes à feu  
+[Demandes d’accès à l’information complétées]()|Permet de demander les documents relatifs aux demandes d'accès 

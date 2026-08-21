@@ -15,6 +15,7 @@ from __future__ import annotations
 import re
 import ssl
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -22,6 +23,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 import yaml
@@ -79,17 +81,18 @@ def load_exceptions() -> dict[str, dict]:
 
 def find_markdown_files() -> list[Path]:
     return sorted(
-        p for p in WIKI_DIR.glob("*.md") if p.name not in GENERATED_PAGES
+        p for p in WIKI_DIR.rglob("*.md") if p.name not in GENERATED_PAGES
     )
 
 
 def extract_links(path: Path) -> list[LinkOccurrence]:
     occurrences = []
     text = path.read_text(encoding="utf-8")
+    fichier = path.relative_to(WIKI_DIR).as_posix()
     for match in LINK_RE.finditer(text):
         texte, url = match.group(1), match.group(2)
         occurrences.append(
-            LinkOccurrence(fichier=path.name, texte=texte.strip(), url=url.strip())
+            LinkOccurrence(fichier=fichier, texte=texte.strip(), url=url.strip())
         )
     return occurrences
 
@@ -118,6 +121,33 @@ def check_url_with_retry(url: str) -> CheckResult:
 def _status_from_detail(detail: str) -> int | None:
     match = re.match(r"HTTP (\d+)", detail)
     return int(match.group(1)) if match else None
+
+
+# Certains serveurs (ex. sigale.ca) répondent normalement à une requête isolée
+# mais ralentissent fortement — voire expirent — dès que plusieurs requêtes
+# arrivent en même temps. On limite donc le nombre de requêtes concurrentes
+# par domaine, indépendamment du nombre total de workers du pool.
+MAX_PER_DOMAIN = 2
+
+_domain_semaphores: dict[str, threading.Semaphore] = {}
+_domain_semaphores_lock = threading.Lock()
+
+
+def _semaphore_for(url: str) -> threading.Semaphore:
+    host = urlsplit(url).netloc
+    with _domain_semaphores_lock:
+        sem = _domain_semaphores.get(host)
+        if sem is None:
+            sem = threading.Semaphore(MAX_PER_DOMAIN)
+            _domain_semaphores[host] = sem
+        return sem
+
+
+def check_url_throttled(url: str) -> CheckResult:
+    """Point d'entrée utilisé par le pool : applique la limite par domaine
+    avant de déléguer à check_url_with_retry (retries compris)."""
+    with _semaphore_for(url):
+        return check_url_with_retry(url)
 
 
 def check_url(url: str) -> CheckResult:
@@ -177,7 +207,7 @@ def collect() -> ReportData:
             urls_a_tester.append(url)
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        futures = {pool.submit(check_url_with_retry, url): url for url in urls_a_tester}
+        futures = {pool.submit(check_url_throttled, url): url for url in urls_a_tester}
         for future in as_completed(futures):
             url = futures[future]
             data.results[url] = future.result()

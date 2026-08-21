@@ -48,3 +48,6 @@
 - url: "https://carto.mrcdescollines.com/SIG_public_82015/"
   raison: "Bloque les requêtes automatisées"
   verifie_le: "2026-08-21"
+- url: "https://www.zillow.com/"
+  raison: "Bloque les requêtes automatisées"
+  verifie_le: "2026-08-21"

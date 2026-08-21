@@ -4,3 +4,4 @@ www
 venv/
 site/
 .cache/
+scripts/__pycache__
