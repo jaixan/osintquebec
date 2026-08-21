@@ -4,6 +4,7 @@ site_url = "https://osintquebec.profinfo.ca"
 docs_dir = "wiki"
 site_dir = "site"
 use_directory_urls = true
+repo_url = "https://github.com/jaixan/osintquebec"  
 
 nav = [
   {"Page principale" = "index.md"},

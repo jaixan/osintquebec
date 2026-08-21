@@ -15,6 +15,7 @@ help:
 	@echo "  make check-links - Vérifie les liens externes (à lancer localement, voir note ci-dessous)"
 	@echo "  make build       - Pipeline complet : pre-build -> zensical"
 	@echo "  make serve       - Lance le serveur de dev Zensical"
+	@echo "  make check-serve - vérifie les liens et lance le serveur de dev Zensical"
 	@echo "  make clean       - Supprime le dossier site/ et les caches"
 	@echo "  make rebuild     - clean + build"
 	@echo "  make deploy      - build + rsync vers le serveur"
@@ -59,7 +60,11 @@ build: zensical-build
 	@echo "✓ Build complet dans $(SITE_DIR)/"
 
 # --- Dev server (sans post-build, pour le live reload) ---
-serve: install pre-build check-links
+serve: install pre-build 
+	$(VENV_BIN)/zensical serve
+
+# --- Dev server (sans post-build, pour le live reload) ---
+check-serve: install pre-build check-links
 	$(VENV_BIN)/zensical serve
 
 # --- Nettoyage ---
