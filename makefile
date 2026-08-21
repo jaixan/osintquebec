@@ -59,7 +59,7 @@ build: zensical-build
 	@echo "✓ Build complet dans $(SITE_DIR)/"
 
 # --- Dev server (sans post-build, pour le live reload) ---
-serve: install pre-build
+serve: install pre-build check-links
 	$(VENV_BIN)/zensical serve
 
 # --- Nettoyage ---
