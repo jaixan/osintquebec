@@ -53,7 +53,7 @@ def render_card(nom: str, description: str, icone: str, url: str) -> str:
     if description:
         lines += ["", f"    {description}"]
     if url:
-        lines += ["", f"    [:octicons-arrow-right-24: Ouvrir]({url})"]
+        lines += ["", f'    [:octicons-arrow-right-24: Ouvrir]({url}){{ target="_blank" rel="noopener" }}']
     return "\n".join(lines)
 
 

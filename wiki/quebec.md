@@ -15,7 +15,7 @@
 
     Bibliothèque et archives nationales du Québec.
 
-    [:octicons-arrow-right-24: Ouvrir](https://numerique.banq.qc.ca)
+    [:octicons-arrow-right-24: Ouvrir](https://numerique.banq.qc.ca){ target="_blank" rel="noopener" }
 
 -   :material-card-account-details:{ .lg .middle } **Registre des détenteurs de licences RBQ**
 
@@ -23,7 +23,7 @@
 
     Régie du bâtiment du Québec — vérifier une licence d'entrepreneur.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.pes.rbq.gouv.qc.ca/RegistreLicences/p1)
+    [:octicons-arrow-right-24: Ouvrir](https://www.pes.rbq.gouv.qc.ca/RegistreLicences/p1){ target="_blank" rel="noopener" }
 
 -   :material-gavel:{ .lg .middle } **Liste des condamnations**
 
@@ -31,7 +31,7 @@
 
     MAPAQ - liste des condamnations des établissements alimentaires
 
-    [:octicons-arrow-right-24: Ouvrir](https://media.mapaq.gouv.qc.ca/condamnations/?type=alimentation)
+    [:octicons-arrow-right-24: Ouvrir](https://media.mapaq.gouv.qc.ca/condamnations/?type=alimentation){ target="_blank" rel="noopener" }
 
 -   :material-shield-check:{ .lg .middle } **Registre des entreprises et individus autorisés à exercer**
 
@@ -39,7 +39,7 @@
 
     Autorité des marchés financiers.
 
-    [:octicons-arrow-right-24: Ouvrir](https://lautorite.qc.ca/grand-public/registres/registre-des-entreprises-et-des-individus-autorises-a-exercer)
+    [:octicons-arrow-right-24: Ouvrir](https://lautorite.qc.ca/grand-public/registres/registre-des-entreprises-et-des-individus-autorises-a-exercer){ target="_blank" rel="noopener" }
 
 -   :material-domain:{ .lg .middle } **Registre des entreprises**
 
@@ -47,7 +47,7 @@
 
     Information sur une entreprise, incluant le nom du propriétaire et possiblement des adresses.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.quebec.ca/entreprises-et-travailleurs-autonomes/obtenir-renseignements-entreprise/recherche-registre-entreprises/acceder-registre-entreprises)
+    [:octicons-arrow-right-24: Ouvrir](https://www.quebec.ca/entreprises-et-travailleurs-autonomes/obtenir-renseignements-entreprise/recherche-registre-entreprises/acceder-registre-entreprises){ target="_blank" rel="noopener" }
 
 -   :material-clipboard-check:{ .lg .middle } **Registre des inspecteurs en bâtiments d'habitation**
 
@@ -55,7 +55,7 @@
 
     Régie du bâtiment du Québec.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.pes.rbq.gouv.qc.ca/RegistreInspecteurs/p0)
+    [:octicons-arrow-right-24: Ouvrir](https://www.pes.rbq.gouv.qc.ca/RegistreInspecteurs/p0){ target="_blank" rel="noopener" }
 
 -   :material-gavel:{ .lg .middle } **Registre des dossiers judiciaires du Québec**
 
@@ -63,7 +63,7 @@
 
     Consulter un dossier judiciaire.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.quebec.ca/justice-et-etat-civil/services/consulter-dossier-judiciaire)
+    [:octicons-arrow-right-24: Ouvrir](https://www.quebec.ca/justice-et-etat-civil/services/consulter-dossier-judiciaire){ target="_blank" rel="noopener" }
 
 </div>
 
@@ -77,7 +77,7 @@
 
     Portail principal des données ouvertes du gouvernement du Québec.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.donneesquebec.ca)
+    [:octicons-arrow-right-24: Ouvrir](https://www.donneesquebec.ca){ target="_blank" rel="noopener" }
 
 -   :material-cards-playing:{ .lg .middle } **Régie des alcools, des courses et des jeux**
 
@@ -85,6 +85,6 @@
 
     Registre des titulaires de licence (permis alcool, loterie, etc.).
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.donneesquebec.ca/recherche/organization/regie-alcools-courses-jeux)
+    [:octicons-arrow-right-24: Ouvrir](https://www.donneesquebec.ca/recherche/organization/regie-alcools-courses-jeux){ target="_blank" rel="noopener" }
 
 </div>

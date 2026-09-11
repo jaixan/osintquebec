@@ -30,6 +30,7 @@ commerciaux,Personnes,Have I Been Pwned,Vérifier si le courriel existe dans une
 commerciaux,Personnes,WhatsMyName,Rechercher un code utilisateur à travers des centaines de sites,account-search,https://whatsmyname.app/
 commerciaux,Réseaux,Shodan,Recherche d'actifs accessibles de l'internet,network,https://www.shodan.io/
 commerciaux,Réseaux,Censys,Analyse de services et de certificats pour un domaine ou adresse IP,certificate,https://platform.censys.io/home
+commerciaux,Réseaux sociaux,Social Searcher,Recherche à travers les médias sociaux,account-search,https://www.social-searcher.com
 fichiers,Métadonnées,Extraction EXIF,Extraction des métadonnées EXIF d'une photo.,camera,https://exif.tools/
 fichiers,Stéganographie,Analyse spectrale audio,Analyse spectrale d'un fichier audio pour détecter de la stéganographie.,waveform,https://www.dcode.fr/spectral-analysis
 fichiers,Stéganographie,Analyse d'images,Analyse d'images pour détecter de la stéganographie.,image-search,https://www.aperisolve.com/

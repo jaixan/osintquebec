@@ -15,7 +15,7 @@
 
     Tous les documents des tribunaux canadiens.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.canlii.org/fr/)
+    [:octicons-arrow-right-24: Ouvrir](https://www.canlii.org/fr/){ target="_blank" rel="noopener" }
 
 -   :material-domain:{ .lg .middle } **Recherche d'entreprise**
 
@@ -23,7 +23,7 @@
 
     Entreprises enregistrées au Canada.
 
-    [:octicons-arrow-right-24: Ouvrir](https://ised-isde.canada.ca/cbr-rec/)
+    [:octicons-arrow-right-24: Ouvrir](https://ised-isde.canada.ca/cbr-rec/){ target="_blank" rel="noopener" }
 
 -   :material-office-building:{ .lg .middle } **Société de régime fédéral**
 
@@ -31,7 +31,7 @@
 
     Recherche d'une société constituée sous le régime fédéral.
 
-    [:octicons-arrow-right-24: Ouvrir](https://ised-isde.canada.ca/cc/lgcy/fdrlCrpSrch.html)
+    [:octicons-arrow-right-24: Ouvrir](https://ised-isde.canada.ca/cc/lgcy/fdrlCrpSrch.html){ target="_blank" rel="noopener" }
 
 -   :material-finance:{ .lg .middle } **Marchés des capitaux du Canada**
 
@@ -39,7 +39,7 @@
 
     Recherche d'information sur les marchés des capitaux canadiens (valeurs mobilières).
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.sedarplus.ca/accueil/)
+    [:octicons-arrow-right-24: Ouvrir](https://www.sedarplus.ca/accueil/){ target="_blank" rel="noopener" }
 
 -   :material-chart-line:{ .lg .middle } **Bourse de Montréal**
 
@@ -47,7 +47,7 @@
 
     Marché des produits dérivés canadiens.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.m-x.ca/fr)
+    [:octicons-arrow-right-24: Ouvrir](https://www.m-x.ca/fr){ target="_blank" rel="noopener" }
 
 -   :material-newspaper-variant-outline:{ .lg .middle } **La Gazette du Canada**
 
@@ -55,7 +55,7 @@
 
     Journal officiel du gouvernement du Canada.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.gazette.gc.ca/accueil-home-fra.html)
+    [:octicons-arrow-right-24: Ouvrir](https://www.gazette.gc.ca/accueil-home-fra.html){ target="_blank" rel="noopener" }
 
 -   :material-chart-bar:{ .lg .middle } **Données de Statistiques Canada**
 
@@ -63,7 +63,7 @@
 
     Données statistiques officielles du Canada.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www150.statcan.gc.ca/n1/fr/type/donnees?HPA=1)
+    [:octicons-arrow-right-24: Ouvrir](https://www150.statcan.gc.ca/n1/fr/type/donnees?HPA=1){ target="_blank" rel="noopener" }
 
 -   :material-account-tie:{ .lg .middle } **Registre des lobbyistes du Canada**
 
@@ -71,7 +71,7 @@
 
     Registre des lobbyistes du Canada.
 
-    [:octicons-arrow-right-24: Ouvrir](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/advSrch?lang=fra)
+    [:octicons-arrow-right-24: Ouvrir](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/advSrch?lang=fra){ target="_blank" rel="noopener" }
 
 -   :material-lightbulb-on-outline:{ .lg .middle } **Office de la propriété intellectuelle du Canada**
 
@@ -79,7 +79,7 @@
 
     Brevets, marques de commerce et propriété intellectuelle.
 
-    [:octicons-arrow-right-24: Ouvrir](https://ised-isde.canada.ca/site/office-propriete-intellectuelle-canada/fr)
+    [:octicons-arrow-right-24: Ouvrir](https://ised-isde.canada.ca/site/office-propriete-intellectuelle-canada/fr){ target="_blank" rel="noopener" }
 
 -   :material-alert-octagon:{ .lg .middle } **Délinquants sexuels à risque élevé**
 
@@ -87,7 +87,7 @@
 
     Banque de données concernant les délinquants sexuels à risque élevé.
 
-    [:octicons-arrow-right-24: Ouvrir](https://grc.ca/fr/banque-donnees-concernant-delinquants-sexuels-risque-eleve-infractions-sexuelles-visant-enfants)
+    [:octicons-arrow-right-24: Ouvrir](https://grc.ca/fr/banque-donnees-concernant-delinquants-sexuels-risque-eleve-infractions-sexuelles-visant-enfants){ target="_blank" rel="noopener" }
 
 -   :material-pistol:{ .lg .middle } **Recherche d'armes à feu**
 
@@ -95,7 +95,7 @@
 
     Recherche d'armes à feu enregistrées.
 
-    [:octicons-arrow-right-24: Ouvrir](https://cpic-cipc.ca/sfa-raf-fra.htm)
+    [:octicons-arrow-right-24: Ouvrir](https://cpic-cipc.ca/sfa-raf-fra.htm){ target="_blank" rel="noopener" }
 
 -   :material-file-search-outline:{ .lg .middle } **Demandes d'accès à l'information complétées**
 
@@ -103,6 +103,6 @@
 
     Permet de demander les documents relatifs aux demandes d'accès à l'information complétées.
 
-    [:octicons-arrow-right-24: Ouvrir](https://ouvert.canada.ca/fr/search/ati)
+    [:octicons-arrow-right-24: Ouvrir](https://ouvert.canada.ca/fr/search/ati){ target="_blank" rel="noopener" }
 
 </div>

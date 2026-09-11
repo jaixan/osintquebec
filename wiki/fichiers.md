@@ -17,7 +17,7 @@
 
     Extraction des métadonnées EXIF d'une photo.
 
-    [:octicons-arrow-right-24: Ouvrir](https://exif.tools/)
+    [:octicons-arrow-right-24: Ouvrir](https://exif.tools/){ target="_blank" rel="noopener" }
 
 </div>
 
@@ -31,7 +31,7 @@
 
     Analyse spectrale d'un fichier audio pour détecter de la stéganographie.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.dcode.fr/spectral-analysis)
+    [:octicons-arrow-right-24: Ouvrir](https://www.dcode.fr/spectral-analysis){ target="_blank" rel="noopener" }
 
 -   :material-image-search:{ .lg .middle } **Analyse d'images**
 
@@ -39,6 +39,6 @@
 
     Analyse d'images pour détecter de la stéganographie.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.aperisolve.com/)
+    [:octicons-arrow-right-24: Ouvrir](https://www.aperisolve.com/){ target="_blank" rel="noopener" }
 
 </div>

@@ -17,7 +17,7 @@
 
     Propriétés à vendre et à louer sur le marché québécois (MLS Québec).
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.centris.ca/)
+    [:octicons-arrow-right-24: Ouvrir](https://www.centris.ca/){ target="_blank" rel="noopener" }
 
 -   :material-home-search:{ .lg .middle } **MLS - Realtor**
 
@@ -25,7 +25,7 @@
 
     Recherche de propriétés à vendre partout au Canada.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.realtor.ca/mls)
+    [:octicons-arrow-right-24: Ouvrir](https://www.realtor.ca/mls){ target="_blank" rel="noopener" }
 
 -   :material-home-search-outline:{ .lg .middle } **Zillow**
 
@@ -33,7 +33,7 @@
 
     Recherche de propriétés et historique des transactions immobilières aux États-Unis.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.zillow.com/)
+    [:octicons-arrow-right-24: Ouvrir](https://www.zillow.com/){ target="_blank" rel="noopener" }
 
 </div>
 
@@ -47,7 +47,7 @@
 
     Informations historiques et dossiers familiaux pour la recherche généalogique.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.familysearch.org/en/search/location/canada)
+    [:octicons-arrow-right-24: Ouvrir](https://www.familysearch.org/en/search/location/canada){ target="_blank" rel="noopener" }
 
 </div>
 
@@ -61,7 +61,7 @@
 
     Recherche inversée par numéro de téléphone.
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.fr.canada411.ca/search/reverse.html)
+    [:octicons-arrow-right-24: Ouvrir](https://www.fr.canada411.ca/search/reverse.html){ target="_blank" rel="noopener" }
 
 </div>
 
@@ -75,7 +75,7 @@
 
     Trouver le type de carte de crédit et sa provenance à partir des premiers chiffres.
 
-    [:octicons-arrow-right-24: Ouvrir](https://binlist.net/)
+    [:octicons-arrow-right-24: Ouvrir](https://binlist.net/){ target="_blank" rel="noopener" }
 
 </div>
 
@@ -89,7 +89,7 @@
 
     Vérifier si le courriel existe dans une brèche de données
 
-    [:octicons-arrow-right-24: Ouvrir](https://haveibeenpwned.com/)
+    [:octicons-arrow-right-24: Ouvrir](https://haveibeenpwned.com/){ target="_blank" rel="noopener" }
 
 -   :material-account-search:{ .lg .middle } **WhatsMyName**
 
@@ -97,7 +97,7 @@
 
     Rechercher un code utilisateur à travers des centaines de sites
 
-    [:octicons-arrow-right-24: Ouvrir](https://whatsmyname.app/)
+    [:octicons-arrow-right-24: Ouvrir](https://whatsmyname.app/){ target="_blank" rel="noopener" }
 
 </div>
 
@@ -109,16 +109,30 @@
 
     ---
 
-    Recherche d'actifs accessible de l'internet
+    Recherche d'actifs accessibles de l'internet
 
-    [:octicons-arrow-right-24: Ouvrir](https://www.shodan.io/)
+    [:octicons-arrow-right-24: Ouvrir](https://www.shodan.io/){ target="_blank" rel="noopener" }
 
 -   :material-certificate:{ .lg .middle } **Censys**
 
     ---
 
-    Analyse services et certificats pour un domaine ou adresse IP
+    Analyse de services et de certificats pour un domaine ou adresse IP
 
-    [:octicons-arrow-right-24: Ouvrir](https://platform.censys.io/home)
+    [:octicons-arrow-right-24: Ouvrir](https://platform.censys.io/home){ target="_blank" rel="noopener" }
+
+</div>
+
+## Réseaux sociaux
+
+<div class="grid cards" markdown>
+
+-   :material-account-search:{ .lg .middle } **Social Searcher**
+
+    ---
+
+    Recherche à travers les médias sociaux
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.social-searcher.com){ target="_blank" rel="noopener" }
 
 </div>
