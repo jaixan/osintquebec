@@ -4,7 +4,8 @@ site_url = "https://osintquebec.profinfo.ca"
 docs_dir = "wiki"
 site_dir = "site"
 use_directory_urls = true
-repo_url = "https://github.com/jaixan/osintquebec"  
+repo_url = "https://github.com/jaixan/osintquebec"
+extra_css = ["stylesheets/extra.css"]
 
 nav = [
   {"Page principale" = "index.md"},
@@ -63,18 +64,9 @@ features = [
 ]
 
 [[project.theme.palette]]
-scheme = "default"
-primary = "teal"
-accent = "teal"
-toggle.icon = "lucide/sun"
-toggle.name = "Passer en mode sombre"
-
-[[project.theme.palette]]
 scheme = "slate"
-primary = "teal"
-accent = "teal"
-toggle.icon = "lucide/moon"
-toggle.name = "Passer en mode clair"
+primary = "black"
+accent = "cyan"
 
 [project.plugins]
 search = {}

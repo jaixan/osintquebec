@@ -1,23 +1,82 @@
-# Gouvernement du Québec  
+<!--
+  Fichier généré automatiquement par scripts/generate_cards.py à partir de
+  scripts/outils.csv. Ne modifiez pas ce fichier directement : vos
+  changements seraient écrasés au prochain build. Modifiez le CSV, puis
+  relancez `python scripts/generate_cards.py` (ou `make build` / `make serve`).
+-->
 
+# Gouvernement du Québec
 
-Outil  | Utilité    
---|--
-[Recherche des archives numériques de la BAnQ](https://numerique.banq.qc.ca)|Bibliothèque et archives nationales du Québec  
-[Registre des détenteurs de licences RBQ](https://www.pes.rbq.gouv.qc.ca/RegistreLicences/p1)| Régie du bâtiment du Québec  
-[Registre des entreprises et des individus autorisés à exercer ](https://lautorite.qc.ca/grand-public/registres/registre-des-entreprises-et-des-individus-autorises-a-exercer) | Autorité des marchés financiers  
-[Registre des entreprise](https://www.quebec.ca/entreprises-et-travailleurs-autonomes/obtenir-renseignements-entreprise/recherche-registre-entreprises/acceder-registre-entreprises)  |  Donne de l'information sur l'entreprise, incluant le nom du propriétaire et possiblement des adresses 
-[Registre des inspecteurs en bâtiments d'habitation](https://www.pes.rbq.gouv.qc.ca/RegistreInspecteurs/p0)|Régie du bâtiment du Québec  
-[Registre des dossiers judiciaires du Québec](https://www.quebec.ca/justice-et-etat-civil/services/consulter-dossier-judiciaire)|Consulter un dossier judiciaire  
+<div class="grid cards" markdown>
 
+-   :material-archive:{ .lg .middle } **Archives numériques de la BAnQ**
 
-## Données Québec  
+    ---
 
-[Page principale de Données Québec](https://www.donneesquebec.ca)  
+    Bibliothèque et archives nationales du Québec.
 
-### Jeux de données spécifiques  
+    [:octicons-arrow-right-24: Ouvrir](https://numerique.banq.qc.ca)
 
-Outil  | Utilité    
---|--
-[Régie des alcools, des courses et des jeux](https://www.donneesquebec.ca/recherche/organization/regie-alcools-courses-jeux)| Registre des titulaires de licence (permis alcool, loto, etc.)     
+-   :material-card-account-details:{ .lg .middle } **Registre des détenteurs de licences RBQ**
 
+    ---
+
+    Régie du bâtiment du Québec — vérifier une licence d'entrepreneur.
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.pes.rbq.gouv.qc.ca/RegistreLicences/p1)
+
+-   :material-shield-check:{ .lg .middle } **Registre des entreprises et individus autorisés à exercer**
+
+    ---
+
+    Autorité des marchés financiers.
+
+    [:octicons-arrow-right-24: Ouvrir](https://lautorite.qc.ca/grand-public/registres/registre-des-entreprises-et-des-individus-autorises-a-exercer)
+
+-   :material-domain:{ .lg .middle } **Registre des entreprises**
+
+    ---
+
+    Information sur une entreprise, incluant le nom du propriétaire et possiblement des adresses.
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.quebec.ca/entreprises-et-travailleurs-autonomes/obtenir-renseignements-entreprise/recherche-registre-entreprises/acceder-registre-entreprises)
+
+-   :material-clipboard-check:{ .lg .middle } **Registre des inspecteurs en bâtiments d'habitation**
+
+    ---
+
+    Régie du bâtiment du Québec.
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.pes.rbq.gouv.qc.ca/RegistreInspecteurs/p0)
+
+-   :material-gavel:{ .lg .middle } **Registre des dossiers judiciaires du Québec**
+
+    ---
+
+    Consulter un dossier judiciaire.
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.quebec.ca/justice-et-etat-civil/services/consulter-dossier-judiciaire)
+
+</div>
+
+## Données Québec
+
+<div class="grid cards" markdown>
+
+-   :material-database:{ .lg .middle } **Données Québec**
+
+    ---
+
+    Portail principal des données ouvertes du gouvernement du Québec.
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.donneesquebec.ca)
+
+-   :material-cards-playing:{ .lg .middle } **Régie des alcools, des courses et des jeux**
+
+    ---
+
+    Registre des titulaires de licence (permis alcool, loterie, etc.).
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.donneesquebec.ca/recherche/organization/regie-alcools-courses-jeux)
+
+</div>

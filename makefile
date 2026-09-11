@@ -48,6 +48,7 @@ check-links: install
 # --- Étapes pre-build (avant zensical) ---
 pre-build: install
 	@echo "==> Pre-build : génération de contenu dynamique"
+	$(VENV_BIN)/python scripts/generate_cards.py
 	@echo "==> Pre-build terminé"
 
 # --- Build Zensical ---

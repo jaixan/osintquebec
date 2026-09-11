@@ -4,10 +4,10 @@ Cette page est générée automatiquement lors de la construction du site.
 
 | Indicateur | Valeur |
 |--|--|
-| Liens fonctionnels | 1184 |
-| Liens totaux | 1184 |
+| Liens fonctionnels | 1185 |
+| Liens totaux | 1185 |
 | Pourcentage fonctionnel | 100.0 % |
-| Dernière vérification | 2026-08-21 15:46:12 EDT |
+| Dernière vérification | 2026-09-11 08:32:56 EDT |
 
 Voir la liste détaillée des liens non fonctionnels : [Liens brisés](liens-brises.md).
 

@@ -1,0 +1,30 @@
+page,categorie,nom,description,icone,url
+canada,,CanLII,Tous les documents des tribunaux canadiens.,scale-balance,https://www.canlii.org/fr/
+canada,,Recherche d'entreprise,Entreprises enregistrées au Canada.,domain,https://ised-isde.canada.ca/cbr-rec/
+canada,,Société de régime fédéral,Recherche d'une société constituée sous le régime fédéral.,office-building,https://ised-isde.canada.ca/cc/lgcy/fdrlCrpSrch.html
+canada,,Marchés des capitaux du Canada,Recherche d'information sur les marchés des capitaux canadiens (valeurs mobilières).,finance,https://www.sedarplus.ca/accueil/
+canada,,Bourse de Montréal,Marché des produits dérivés canadiens.,chart-line,https://www.m-x.ca/fr
+canada,,La Gazette du Canada,Journal officiel du gouvernement du Canada.,newspaper-variant-outline,https://www.gazette.gc.ca/accueil-home-fra.html
+canada,,Données de Statistiques Canada,Données statistiques officielles du Canada.,chart-bar,https://www150.statcan.gc.ca/n1/fr/type/donnees?HPA=1
+canada,,Registre des lobbyistes du Canada,Registre des lobbyistes du Canada.,account-tie,https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/advSrch?lang=fra
+canada,,Office de la propriété intellectuelle du Canada,"Brevets, marques de commerce et propriété intellectuelle.",lightbulb-on-outline,https://ised-isde.canada.ca/site/office-propriete-intellectuelle-canada/fr
+canada,,Délinquants sexuels à risque élevé,Banque de données concernant les délinquants sexuels à risque élevé.,alert-octagon,https://grc.ca/fr/banque-donnees-concernant-delinquants-sexuels-risque-eleve-infractions-sexuelles-visant-enfants
+canada,,Recherche d'armes à feu,Recherche d'armes à feu enregistrées.,pistol,https://cpic-cipc.ca/sfa-raf-fra.htm
+canada,,Demandes d'accès à l'information complétées,Permet de demander les documents relatifs aux demandes d'accès à l'information complétées.,file-search-outline,https://ouvert.canada.ca/fr/search/ati
+quebec,,Archives numériques de la BAnQ,Bibliothèque et archives nationales du Québec.,archive,https://numerique.banq.qc.ca
+quebec,,Registre des détenteurs de licences RBQ,Régie du bâtiment du Québec — vérifier une licence d'entrepreneur.,card-account-details,https://www.pes.rbq.gouv.qc.ca/RegistreLicences/p1
+quebec,,Registre des entreprises et individus autorisés à exercer,Autorité des marchés financiers.,shield-check,https://lautorite.qc.ca/grand-public/registres/registre-des-entreprises-et-des-individus-autorises-a-exercer
+quebec,,Registre des entreprises,"Information sur une entreprise, incluant le nom du propriétaire et possiblement des adresses.",domain,https://www.quebec.ca/entreprises-et-travailleurs-autonomes/obtenir-renseignements-entreprise/recherche-registre-entreprises/acceder-registre-entreprises
+quebec,,Registre des inspecteurs en bâtiments d'habitation,Régie du bâtiment du Québec.,clipboard-check,https://www.pes.rbq.gouv.qc.ca/RegistreInspecteurs/p0
+quebec,,Registre des dossiers judiciaires du Québec,Consulter un dossier judiciaire.,gavel,https://www.quebec.ca/justice-et-etat-civil/services/consulter-dossier-judiciaire
+quebec,Données Québec,Données Québec,Portail principal des données ouvertes du gouvernement du Québec.,database,https://www.donneesquebec.ca
+quebec,Données Québec,"Régie des alcools, des courses et des jeux","Registre des titulaires de licence (permis alcool, loterie, etc.).",cards-playing,https://www.donneesquebec.ca/recherche/organization/regie-alcools-courses-jeux
+commerciaux,Immobilier,Centris,Propriétés à vendre et à louer sur le marché québécois (MLS Québec).,home-city,https://www.centris.ca/
+commerciaux,Immobilier,MLS - Realtor,Recherche de propriétés à vendre partout au Canada.,home-search,https://www.realtor.ca/mls
+commerciaux,Immobilier,Zillow,Recherche de propriétés et historique des transactions immobilières aux États-Unis.,home-search-outline,https://www.zillow.com/
+commerciaux,Généalogie,Family Search,Informations historiques et dossiers familiaux pour la recherche généalogique.,family-tree,https://www.familysearch.org/en/search/location/canada
+commerciaux,Recherche inversée,Canada 411,Recherche inversée par numéro de téléphone.,account-search,https://www.fr.canada411.ca/search/reverse.html
+commerciaux,Cartes de crédit,Binlist,Trouver le type de carte de crédit et sa provenance à partir des premiers chiffres.,credit-card-search,https://binlist.net/
+fichiers,Métadonnées,Extraction EXIF,Extraction des métadonnées EXIF d'une photo.,camera,https://exif.tools/
+fichiers,Stéganographie,Analyse spectrale audio,Analyse spectrale d'un fichier audio pour détecter de la stéganographie.,waveform,https://www.dcode.fr/spectral-analysis
+fichiers,Stéganographie,Analyse d'images,Analyse d'images pour détecter de la stéganographie.,image-search,https://www.aperisolve.com/
