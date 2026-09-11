@@ -78,3 +78,47 @@
     [:octicons-arrow-right-24: Ouvrir](https://binlist.net/)
 
 </div>
+
+## Personnes
+
+<div class="grid cards" markdown>
+
+-   :material-email:{ .lg .middle } **Have I Been Pwned**
+
+    ---
+
+    Vérifier si le courriel existe dans une brèche de données
+
+    [:octicons-arrow-right-24: Ouvrir](https://haveibeenpwned.com/)
+
+-   :material-account-search:{ .lg .middle } **WhatsMyName**
+
+    ---
+
+    Rechercher un code utilisateur à travers des centaines de sites
+
+    [:octicons-arrow-right-24: Ouvrir](https://whatsmyname.app/)
+
+</div>
+
+## Réseaux
+
+<div class="grid cards" markdown>
+
+-   :material-network:{ .lg .middle } **Shodan**
+
+    ---
+
+    Recherche d'actifs accessible de l'internet
+
+    [:octicons-arrow-right-24: Ouvrir](https://www.shodan.io/)
+
+-   :material-certificate:{ .lg .middle } **Censys**
+
+    ---
+
+    Analyse services et certificats pour un domaine ou adresse IP
+
+    [:octicons-arrow-right-24: Ouvrir](https://platform.censys.io/home)
+
+</div>

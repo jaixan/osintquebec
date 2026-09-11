@@ -25,6 +25,14 @@
 
     [:octicons-arrow-right-24: Ouvrir](https://www.pes.rbq.gouv.qc.ca/RegistreLicences/p1)
 
+-   :material-gavel:{ .lg .middle } **Liste des condamnations**
+
+    ---
+
+    MAPAQ - liste des condamnations des établissements alimentaires
+
+    [:octicons-arrow-right-24: Ouvrir](https://media.mapaq.gouv.qc.ca/condamnations/?type=alimentation)
+
 -   :material-shield-check:{ .lg .middle } **Registre des entreprises et individus autorisés à exercer**
 
     ---

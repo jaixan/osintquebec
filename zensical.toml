@@ -10,6 +10,8 @@ extra_css = ["stylesheets/extra.css"]
 nav = [
   {"Page principale" = "index.md"},
   {"Sites gouvernementaux" = [
+    {"Gouvernement du Québec" = "quebec.md"},
+    {"Gouvernement du Canada" = "canada.md"},
     {"Municipalités" = [
       {"Abitibi-Témiscamingue" = "municipalites/abitibi-temiscamingue.md"},
       {"Bas St-Laurent" = "municipalites/bas-st-laurent.md"},
@@ -29,8 +31,6 @@ nav = [
       {"Outaouais" = "municipalites/outaouais.md"},
       {"Saguenay--Lac-Saint-Jean" = "municipalites/saguenay-lac-saint-jean.md"},
     ]},
-    {"Gouvernement du Québec" = "quebec.md"},
-    {"Gouvernement du Canada" = "canada.md"},
   ]},
   {"Autres ressources" = [
     {"Ressources commerciales" = "commerciaux.md"},
