@@ -79,6 +79,8 @@
 |Tingwick|[Rôle d'évaluation](https://www.tingwick.ca/fr/services-aux-citoyens/role-d-evaluation-en-ligne)  
 |Victoriaville|[Cartes interactives](https://victoriaville.ca/a-propos-de-la-ville/division-du-territoire)  
 |Victoriaville|[Rôle d'évaluation](https://municipal.acceo.com/immonet/victoriaville)  
+|Victoriaville|[Bottin des employés](https://intranet.victoriaville.ca/bottin/)  
+|Victoriaville|[Intranet du personnel](https://intranet.victoriaville.ca/)  
 |Villeroy|[Rôle d'évaluation](https://pdi.pgmunicipal.com/immosoft/controller/ImmoNetPub/U4051/trouverParAdresse?language=fr&fourn_seq=528)  
 |Warwick|[Rôle d'évaluation](https://pdi.pgmunicipal.com/immosoft/controller/ImmoNetPub/U4051/trouverParAdresse?fourn_seq=78)  
 |Wickham|[Matrice graphique](https://www.goazimut.com/GOnet6/?m=49040&pl=1)  
